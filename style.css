@@ -1,0 +1,127 @@
+body{
+    text-align: center;
+    background-image:linear-gradient(#F4D03F, #16A085);
+    justify-content: space-between;
+    color: white;
+    font-size: large;
+    position: relative;
+}
+#logo{
+   height: 15rem;
+   width: 30rem;
+}
+#game{
+    z-index: 0;
+    width: 34rem;
+    height: 34rem;
+    background-color:#404040;
+    border: 10px solid #FF2525;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+#game img{
+    width: 11rem;
+    height: 11rem;
+    border: 1px solid #FF2525;
+    background-color: #404040;
+    border-radius: 8px;
+    
+}
+.but{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0, 2rem;
+}
+#strt{
+    height: 3rem;
+    width: 6rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    background-image: linear-gradient(#FAD961, #F76B1C);
+    color: white;
+    font-size: medium;
+    font-weight: bold; 
+    border-bottom:4px solid red;  
+}
+#new{
+    height: 3rem;
+    width: 6rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    background-image: linear-gradient(#FAD961, #F76B1C);
+    color: white;
+    font-size: medium;
+    font-weight: bold; 
+    border-bottom:4px solid red;  
+
+}
+.previous{
+    width: 34rem;
+    height: 34rem;
+    background-color:#404040;
+    border: 10px solid #FF2525;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+
+    color: white;
+    position: relative;
+    font-weight: bolder;
+}
+
+/* Win condition */
+.modal{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 10rem;
+    top: 25%;
+    left: 32%;
+    width: 40rem;
+    height: 10rem;
+    overflow: none;
+}
+.cnt{
+
+    background-color: #fefefe;
+    margin: auto;
+    padding: 2rem;
+    width: 80%;
+    border: 2px solid #FF2525;
+    background-color: #404040;
+}
+.close{
+    color: black;
+    float: right;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#new2{
+    height: 3rem;
+    width: 6rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    background-color: #000;
+    color: white;
+    font-size: medium;
+    font-weight: bold; 
+    border-bottom:4px solid red;  
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Puzzle Game</title>
+    <link rel="icon" type="image/x-icon" href="./logo/tl.svg">
+</head>
+
+<body>
+    <img id="logo" src="./logo/logo1.svg">
+    <div id="game"></div>
+    <h1>Turns: <span id="turns">0</span>
+    </h1>
+    <h2>Timer: 
+        <span id="sec">00</span>
+        <span> : </span>
+        <span id="min">00</span>
+        <span> : </span>
+        <span id="hr">00</span>
+    </h2>
+    <div class="but">
+        <button id="strt">Start</button>
+        <button id="new">New Round</button>
+    </div>
+    <h1 class="prev">Previous Round's Data</h1>
+    <div class="previous">
+        <h1 id="prevturn"></h1> 
+        <h2 id="timer"></h2>
+        <h3 id="plays"></h3>
+    </div>
+    <div id="win" class="modal">
+        <div class="cnt">
+            <span id="cross" class="close">&times;</span>
+            <h1 class="txt">Congratulations You Have WON!..</h1>
+            <button id="new2">New Round</button>
+
+        </div>
+    </div>
+
+</body>
+<script src="./app.js"> </script>
+<script src="https://code.jquery.com/jquery-3.6.1.js" 
+integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" 
+crossorigin="anonymous">
+</script>
+
+</html>
